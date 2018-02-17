@@ -2,6 +2,7 @@
 <h1>
 User Details
 </h1>
+<div>Today is : {{today}}</div>
 <div> Months :
    <select (change) = "changemonths($event)">
       <option *ngFor="let i of months">{{i}}</option>

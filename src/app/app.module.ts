@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { ColorBlueDirective } from './color-blue.directive';
 import { SalutationPipe } from './salutation.pipe';
+import { MyServiceService } from './my-service.service';
 
 
 @NgModule({
@@ -24,7 +25,7 @@ import { SalutationPipe } from './salutation.pipe';
          }
       ])
   ],
-  providers: [],
+  providers: [MyServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

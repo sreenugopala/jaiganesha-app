@@ -1,0 +1,10 @@
+.roundborder{
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #77aaff;
+  box-shadow:  -2px 2px #77aaff,
+       -1px 1px #77aaff,
+       -1px 1px #77aaff,
+       -1px 1px #77aaff,
+       -1px 1px #77aaff;
+}

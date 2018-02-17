@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
@@ -16,7 +16,13 @@ import { SalutationPipe } from './salutation.pipe';
     SalutationPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+         {
+            path: 'userdetails',
+            component: UserdetailsComponent
+         }
+      ])
   ],
   providers: [],
   bootstrap: [AppComponent]

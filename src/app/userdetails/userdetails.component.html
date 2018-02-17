@@ -7,7 +7,7 @@ User Details
       <option *ngFor="let i of months">{{i}}</option>
    </select>
 </div>
-<div>
+<div appColorBlue>
    <span *ngIf="isavailable; then condition1 else condition2">Condition is valid.</span>
    <ng-template #condition1>Condition is valid</ng-template>
    <ng-template #condition2>Condition is invalid</ng-template>

@@ -4,5 +4,5 @@
     Welcome to {{ title }}!
   </h1>
 </div>
-<h2>{{ myMessage }}</h2>
+<h2>{{ myMessage | salutation : "green" }}</h2>
 <app-userdetails></app-userdetails>

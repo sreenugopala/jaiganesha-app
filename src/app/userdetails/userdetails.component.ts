@@ -16,7 +16,7 @@ export class UserdetailsComponent implements OnInit {
   }
 
 myClickFunction(event){
-  alert(event);
+  this.isavailable = !this.isavailable;
   console.log(event);
 }
 
